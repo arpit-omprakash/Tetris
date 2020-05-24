@@ -1,0 +1,115 @@
+body{
+  margin: auto;
+  width: 50%;
+  height: 100%;
+}
+
+.name{
+  text-transform: uppercase;
+  font-size: 40px;
+  border: 2px solid blue;
+  border-style: dashed;
+  text-align: center;
+}
+
+.center{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+
+.instructions{
+  margin-left: 40px;
+}
+
+.difficulty{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+  margin: auto;
+  padding-left: 120px;
+}
+
+.grid{
+  width:200px;
+  height:400px;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border: 3px solid blue;
+}
+
+.grid div {
+  height:20px;
+  width:20px;
+}
+
+.tetromino {
+  background-color: blue;
+  box-shadow: inset 0 0 5px 1px;
+}
+
+.text{
+  margin-left: 50px;
+}
+
+.mini-grid {
+  width: 80px;
+  height: 80px;
+  display:flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border: 3px solid red;
+}
+
+.mini-grid div{
+  height:20px;
+  width:20px;
+}
+
+#start-button{
+  margin-left: 120px;
+  width: 30%;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#navigation{
+  text-align: left;
+  padding: 5px;
+  font-size: 1.5em;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0,0,0,1);
+  width: 100%;
+}
+
+#fullLayout{
+  box-shadow: 0 10px 20px 20px rgba(0,0,0,0.35),0 6px 6px rgba(0,0,0,0.12);
+  /* border-radius: 20px; */
+  background: linear-gradient(0deg, #b3ffab, #12fff7);
+  padding-top: 50px;
+}
+
+#score{
+  text-align: center;
+}
+
+footer {
+  font-size: 16px;
+  position: relative;
+  top:30px;
+  text-align: right;
+}
+
+a{
+  color: #FFF;
+}
+a:hover {
+  color: #00F;
+}
